@@ -1,0 +1,33 @@
+#### WSB SETUP IS NOT CURRENTLY USING, BUT REMAIN IN CODE TO PREPARE ANY FUTURE USAGE.
+wsb_mar_setup:
+ value : E23:MZ4
+
+# The range of main excel sheet in each Geo/Market Excel Template. Ex) [US]
+main_setup:
+ value : C15:CR150
+
+# Ex) [US_Bridge]
+bridge_setup:
+ value : F12:Z326
+ 
+ # Ex) [US_Signing]
+signing_setup:
+ value : F12:L326
+
+# Ex) [US_Roadmap] 
+roadmap_setup_a:
+ value : J10:S14
+
+# Ex) [US_Roadmap] 
+roadmap_setup_b:
+ value : F17:S150
+
+# Ex) [US_To_Go] 
+togo_setup:
+ value : F15:N67
+ 
+# # The range of revenu excel sheet in each Geo Template. Ex) [AM_Rev] 
+revenue_setup:
+ value : I9:CG29
+ 
+ 

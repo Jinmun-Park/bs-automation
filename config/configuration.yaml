@@ -1,0 +1,73 @@
+path_market_us:
+ value : C:\Users\JINMUNPARK\Box\GTS_Closing_Assessment_Template\GEO_AM\US\GTS_US_Market_Template_run.xlsm
+ 
+path_market_c:
+ value : C:\Users\JINMUNPARK\Box\GTS_Closing_Assessment_Template\GEO_AM\C\GTS_C_Market_Template_run.xlsm
+ 
+path_market_la:
+ value : C:\Users\JINMUNPARK\Box\GTS_Closing_Assessment_Template\GEO_AM\LA\GTS_LA_Market_Template_run.xlsm
+
+
+
+path_market_bnl:
+ value : C:\Users\JINMUNPARK\Box\GTS_Closing_Assessment_Template\GEO_EM\BNL\GTS_BNL_Market_Template_run.xlsm
+ 
+path_market_cee:
+ value : C:\Users\JINMUNPARK\Box\GTS_Closing_Assessment_Template\GEO_EM\CEE\GTS_CEE_Market_Template_run.xlsm
+ 
+path_market_dac:
+ value : C:\Users\JINMUNPARK\Box\GTS_Closing_Assessment_Template\GEO_EM\DAC\GTS_DAC_Market_Template_run.xlsm
+  
+path_market_fra:
+ value : C:\Users\JINMUNPARK\Box\GTS_Closing_Assessment_Template\GEO_EM\FRA\GTS_FRA_Market_Template_run.xlsm
+ 
+path_market_igi:
+ value : C:\Users\JINMUNPARK\Box\GTS_Closing_Assessment_Template\GEO_EM\IGI\GTS_IGI_Market_Template_run.xlsm
+ 
+path_market_ity:
+ value : C:\Users\JINMUNPARK\Box\GTS_Closing_Assessment_Template\GEO_EM\ITY\GTS_ITY_Market_Template_run.xlsm
+ 
+path_market_nfr:
+ value : C:\Users\JINMUNPARK\Box\GTS_Closing_Assessment_Template\GEO_EM\NFR\GTS_NFR_Market_Template_run.xlsm
+ 
+path_market_uki:
+ value : C:\Users\JINMUNPARK\Box\GTS_Closing_Assessment_Template\GEO_EM\UKI\GTS_UKI_Market_Template_run.xlsm
+ 
+path_market_mer:
+ value : C:\Users\JINMUNPARK\Box\GTS_Closing_Assessment_Template\GEO_EM\MER\GTS_MER_Market_Template_run.xlsm
+ 
+ 
+
+path_market_anz:
+ value : C:\Users\JINMUNPARK\Box\GTS_Closing_Assessment_Template\GEO_AP\ANZ\GTS_ANZ_Market_Template_run.xlsm
+ 
+path_market_ase:
+ value : C:\Users\JINMUNPARK\Box\GTS_Closing_Assessment_Template\GEO_AP\ASE\GTS_ASE_Market_Template_run.xlsm
+ 
+path_market_chr:
+ value : C:\Users\JINMUNPARK\Box\GTS_Closing_Assessment_Template\GEO_AP\CHR\GTS_CHR_Market_Template_run.xlsm
+
+path_market_isa:
+ value : C:\Users\JINMUNPARK\Box\GTS_Closing_Assessment_Template\GEO_AP\ISA\GTS_ISA_Market_Template_run.xlsm
+ 
+path_market_kor:
+ value : C:\Users\JINMUNPARK\Box\GTS_Closing_Assessment_Template\GEO_AP\KOR\GTS_KOR_Market_Template_run.xlsm
+
+
+ 
+path_geo_am:
+ value : C:\Users\JINMUNPARK\Box\GTS_Closing_Assessment_Template\GEO_AM\GTS_AM_Market_Template_run.xlsm
+
+path_geo_em:
+ value : C:\Users\JINMUNPARK\Box\GTS_Closing_Assessment_Template\GEO_EM\GTS_EM_Market_Template_run.xlsm
+ 
+path_geo_jn:
+ value : C:\Users\JINMUNPARK\Box\GTS_Closing_Assessment_Template\GEO_JN\GTS_JN_Market_Template_run.xlsm
+ 
+path_geo_ap:
+ value : C:\Users\JINMUNPARK\Box\GTS_Closing_Assessment_Template\GEO_AP\GTS_AP_Market_Template_run.xlsm
+ 
+
+
+path_ww : 
+  value : C:\Users\JINMUNPARK\Box\GTS_Closing_Assessment_Template\GTS_WW_Market_Template_run.xlsm
