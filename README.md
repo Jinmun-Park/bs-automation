@@ -38,6 +38,3 @@
 
 * **Revenue** : This excel sheet is only existing in both Geo/WW level templates where all market revenue values are stored. Only WW consolidator can pull values from Geo template and store market information into 'WW_Rev' excel sheet.
 
-
-Please read more details in WIKI ;
-https://github.ibm.com/finance-dsc/closing-assessment/wiki
