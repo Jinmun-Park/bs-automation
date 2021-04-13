@@ -29,7 +29,7 @@
 
 <p align="justify"> All excel sheet names should be stored in dictionary. Dictionary enables to copy and paste through loop function in each excel worksheet sequentially. This is a list of excel sheets need to be stored in dictionary.</p>
 
-* **Main** : Excel sheet where actuals from WWConsol and WSB are summarized in this tab. All manual adjustment values are stored and consolidated. 
+* **Main** : Excel sheet where actuals IBM PAX are summarized in this tab. All manual adjustment values are stored and consolidated. 
 
 * **Bridge** : Bridge tab where manual bridging inputs are saved here.
 * **Roadmap** : Manual roadmap inputs are stored here.
