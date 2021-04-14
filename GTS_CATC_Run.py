@@ -210,8 +210,7 @@ def login()->[str,bool]:
             logging.info("login attempt : " + attempts.__str__())
             
             while attempts<3:
-                
-                #password=input("\n **Please enter your password: ")
+
                 print("\n **Please enter your password")
                 password  = getpass.getpass(prompt="Password :")
                 if password.upper() == get_user_details(username)[0].upper():
@@ -277,12 +276,11 @@ def run_market_to_GEO(key_input : str):
     
     market_dc = {'AM' : ['US', 'LA', 'C'],
                 'EM' : ['BNL','CEE','DAC','FRA','IGI','ITY','NFR','UKI','MER'], 
-                'JN' : ['JN'], #JN IS NOW NOT HAVING ANY MARKETS
+                'JN' : ['JN'],
                 'AP' : ['ANZ','ASE','CHR','ISA','KOR']
                 }
     
     worksheet_dc = {'name' : ['AM', 'EM', 'JN', 'AP', 'US', 'LA', 'C','BNL','CEE','DAC','FRA','IGI','ITY','NFR','UKI','MER','JN','ANZ','ASE','CHR','ISA','KOR'],
-                    #'wsb' : ['Market_wsb', 'Market_wsb', 'Market_wsb', 'Market_wsb', 'Market_wsb', 'Market_wsb', 'Market_wsb', 'Market_wsb','Market_wsb', 'Market_wsb', 'Market_wsb', 'Market_wsb','Market_wsb', 'Market_wsb', 'Market_wsb', 'Market_wsb','Market_wsb', 'Market_wsb', 'Market_wsb', 'Market_wsb','Market_wsb', 'Market_wsb'],
                     'main' : [None,None,None,None, 'US', 'LA', 'C','BNL','CEE','DAC','FRA','IGI','ITY','NFR','UKI','MER','JN','ANZ','ASE','CHR','ISA','KOR'],
                     'bridge' : [None,None,None,None, 'US_Bridge', 'LA_Bridge', 'C_Bridge','BNL_Bridge','CEE_Bridge','DAC_Bridge','FRA_Bridge','IGI_Bridge','ITY_Bridge','NFR_Bridge','UKI_Bridge','MER_Bridge','JN_Bridge','ANZ_Bridge','ASE_Bridge','CHR_Bridge','ISA_Bridge','KOR_Bridge'],
                     'roadmap' : [None,None,None,None, 'US_Roadmap', 'LA_Roadmap', 'C_Roadmap','BNL_Roadmap','CEE_Roadmap','DAC_Roadmap','FRA_Roadmap','IGI_Roadmap','ITY_Roadmap','NFR_Roadmap','UKI_Roadmap','MER_Roadmap','JN_Roadmap','ANZ_Roadmap','ASE_Roadmap','CHR_Roadmap','ISA_Roadmap','KOR_Roadmap'],
@@ -517,7 +515,6 @@ def run_GEO_to_Worldwide(key_input : str):
     worldwide_dc = {'WW' : ['AM', 'EM', 'JN', 'AP']}
     
     worksheet_dc = {'name' : ['WW', 'AM', 'EM', 'JN', 'AP'],
-                   #'wsb' : ['Geo_wsb','Geo_wsb','Geo_wsb','Geo_wsb','Geo_wsb'],
                    'main' : ['WW', 'AM', 'EM', 'JN', 'AP'],
                    'bridge' : ['WW_Bridge', 'AM_Bridge', 'EM_Bridge', 'JN_Bridge', 'AP_Bridge'],
                    'roadmap' : ['WW_Roadmap', 'AM_Roadmap', 'EM_Roadmap', 'JN_Roadmap', 'AP_Roadmap'],
@@ -624,7 +621,6 @@ def run_GEO_to_Worldwide(key_input : str):
             wb_name = str('geo_wb_{0}'.format(i))
                         
             # Load WW/GEO Worksheet Names
-            #worksheet_geo = ws_geo_df.iloc[0] # Worldwide
             worksheet_market = ws_market_df.iloc[i] #Geo Worksheets
             
             # Load WW/GEO Worksheets in Python
@@ -744,8 +740,7 @@ def run_model():
     logging.info("Running CATC")              
     
     set_Log_Directory()    
-    
-    #### SETUP 001 : Create Dictionary
+
     key_input, login_result  = login()
     
     if ( key_input.__str__() != "None" and login_result == True):    
