@@ -92,16 +92,11 @@ def get_WW(ww:str='WW')->str:
 def get_user_details(userid:str)->str:
     
     user_dict = {        
-        'WWUSER' : ['WWCATCPWD', 'WW'],
-        'AMUSER' : ['AMCATCGEOPWD', 'AM'],
-        'EMUSER' : ['EMCATCGEOPWD', 'EM'],
-        'APUSER' : ['APCATCGEOPWD', 'AP'],
-        'JNUSER' : ['JNCATCGEOPWD', 'JN'],
-        'AMMARKETUSER' : ['AMCATCMARKETPWD', 'AMMARKET'],
-        'EMMARKETUSER' : ['EMCATCMARKETPWD', 'EMMARKET'],
-        'APMARKETUSER' : ['APCATCMARKETPWD', 'APMARKET'],
-        'JNMARKETUSER' : ['JNCATCMARKETPWD', 'JNMARKET'],
-        'DEMOWW':['DEMO','WW']
+        'WWUSER' : ['WWPWD', 'WW'],
+        'AMUSER' : ['AMPWD', 'AM'],
+        'EMUSER' : ['EMPWD', 'EM'],
+        'APUSER' : ['APPWD', 'AP'],
+        'JNUSER' : ['JNPWD', 'JN'],
     }
     
     return user_dict.get(userid.upper(),"Invalid".capitalize())
