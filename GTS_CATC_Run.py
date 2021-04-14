@@ -7,6 +7,7 @@ import logging
 import colored
 import getpass
 
+# Testing the work
 
 def get_config() -> dict:
     
