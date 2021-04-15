@@ -27,7 +27,7 @@
 
 <p align="justify"> auto-py-to-exe package from PyPi is converting package used in this project. Blank anaconda environment is made prior to execute conversion as it helps end users to perform consolidation quickly. Default environment may pack with your pre-installed packages that running executive file takes longer. </p>
 
-<p align="justify"> All excel sheet names should be stored in dictionary. Dictionary enables to copy and paste through loop function in each excel worksheet sequentially. This is a list of excel sheets need to be stored in dictionary.</p>
+<p align="justify"> All excel sheet names should be stored in dictionary. Dictionary enables the range of cells to copy and paste to each excel worksheet sequentially. This is a list of excel sheets stored in dictionary.</p>
 
 * **Main** : Excel sheet where actuals IBM PAX are summarized in this tab. All manual adjustment values are stored and consolidated. 
 
